@@ -1,0 +1,32 @@
+{
+    "type": "component",
+    "props": {
+        "mode": {
+            "type": "String",
+            "desc": "Exhibition mode",
+            "default": "popup",
+            "values": ["popup", "inline"],
+            "examples": ["mode=\"inline\"", "mode=\"popup\""]
+        },
+        "value": {
+            "desc": "Model of the component; Either use this property (along with a listener for 'input' event) OR use v-model directive"
+        }
+    },
+    "events": {
+        "input": {
+            "desc": "Emitted when component's model changes; Is also used by v-model",
+            "params": {
+                "value": {
+                    "type": ["String", "Number"],
+                    "desc": "New model value",
+                    "required": true
+                }
+            }
+        }
+    },
+    "slots": {
+        "default": {
+            "desc": "The default q-td slot"
+        }
+    }
+}
