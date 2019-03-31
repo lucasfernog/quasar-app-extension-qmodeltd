@@ -48,12 +48,12 @@ Can be found [here](https://github.com/lucasfernog/quasar-app-extension-qmodeltd
 
 # QModelTd Vue Properties
 | Vue&nbsp;Property | Type | Description |
-|---|---|---|---|
+|---|---|---|
 | mode | String | ['inline','popup'] This determines how the edit is displayed (inline on the QTd or through a QPopupEdit). (Default: 'popup') |
 
 # QModelTd Vue Slots
 
 | Vue&nbsp;Slots | Description |
-|---|---|---|
+|---|---|
 | default | The slot rendered when NOT on edit mode.
 | model-view | The slot rendered on edit mode. Contains a QInput when using QEditableTd, and a QSelect when using QSelectableTd.
