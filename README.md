@@ -21,6 +21,9 @@ In your Quasar project:
 quasar ext add qmodeltd
 ```
 
+# Demo
+Can be found [here](https://qmodeltd.netlify.com/#/).
+
 # Test Project
 Can be found [here](https://github.com/lucasfernog/quasar-app-extension-qmodeltd-test).
 
