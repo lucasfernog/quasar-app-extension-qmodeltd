@@ -28,7 +28,7 @@ Can be found [here](https://qmodeltd.netlify.com/#/).
 Can be found [here](https://github.com/lucasfernog/quasar-app-extension-qmodeltd-test).
 
 # Example Code
-```
+```html
 <q-tr :props="props">
   <q-editable-td
     key="desc"
