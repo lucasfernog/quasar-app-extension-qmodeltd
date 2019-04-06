@@ -22,6 +22,12 @@
                     "required": true
                 }
             }
+        },
+        "edit-start": {
+            "desc": "Emmitted when the component starts edit mode"
+        },
+        "edit-finish": {
+            "desc": "Emmitted when the component finishes edit mode"
         }
     },
     "scopedSlots": {

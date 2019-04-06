@@ -1,11 +1,12 @@
 <template>
-  <q-model-td v-bind="$attrs" v-on="$listeners" :value="value" @input="onInput" :mode="mode">
+  <q-model-td v-bind="$attrs" v-on="$listeners" :value="value" @input="onInput" :mode="mode" @edit-start="onEditStart">
     <template #default>
       <slot></slot>
     </template>
 
     <template v-slot:model-view="props">
       <q-input
+        ref="input"
         :value="value"
         @input="onInput"
         @blur="props.finishEdit"
@@ -27,6 +28,23 @@ export default {
     "q-model-td": QModelTd
   },
 
-  mixins: [mixin]
+  mixins: [mixin],
+
+  methods: {
+    onEditStart () {
+      if (this.mode === 'inline') {
+        this.$nextTick(this.$refs.input.focus)
+      }
+    }
+  }
 };
 </script>
+
+<style lang="stylus">
+  .inline-edit-container .q-field__native
+    font-size 13px
+    
+  .inline-edit-container .q-field__inner
+    width 0!important
+    height 30px
+</style>

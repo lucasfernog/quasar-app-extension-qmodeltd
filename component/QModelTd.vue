@@ -4,9 +4,9 @@
       <slot></slot>
     </div>
     <template v-if="mode === 'inline'">
-      <template v-if="editing">
-        <slot name="model-view" v-bind="{finishEdit, cancelEdit}"></slot>
-      </template>
+      <div class="inline-edit-container" v-show="editing">
+        <slot name="model-view" v-bind="{finishEdit, cancelEdit}" ></slot>
+      </div>
     </template>
     <q-popup-edit v-else :value="value" @input="onInput" v-bind="$attrs">
       <slot name="model-view" v-bind="{finishEdit, cancelEdit}"></slot>
@@ -26,10 +26,12 @@ export default {
   methods: {
     onTdClick() {
       this.preEditValue = this.value;
-      this.editing = !this.editing;
+      this.editing = true;
+      this.$emit('edit-start')
     },
     finishEdit() {
       this.editing = false;
+      this.$emit('edit-finish')
     },
     cancelEdit() {
       this.onInput(this.preEditValue);
@@ -45,3 +47,8 @@ export default {
   }
 };
 </script>
+
+<style lang="stylus">
+  .inline-edit-container 
+    height 30px
+</style>
