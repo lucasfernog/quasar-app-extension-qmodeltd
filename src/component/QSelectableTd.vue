@@ -22,12 +22,14 @@
 </template>
 
 <script>
-import QModelTd from "./QModelTd";
+import { QSelect } from 'quasar'
+import QModelTd from './QModelTd'
 import mixin from './mixin'
 
 export default {
   components: {
-    "q-model-td": QModelTd
+    QSelect,
+    QModelTd
   },
 
   methods: {

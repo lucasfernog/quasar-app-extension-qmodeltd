@@ -20,12 +20,14 @@
 </template>
 
 <script>
-import QModelTd from "./QModelTd";
+import { QInput } from 'quasar'
+import QModelTd from './QModelTd'
 import mixin from './mixin'
 
 export default {
   components: {
-    "q-model-td": QModelTd
+    QInput,
+    QModelTd
   },
 
   mixins: [mixin],
@@ -43,7 +45,7 @@ export default {
 <style lang="stylus">
   .inline-edit-container .q-field__native
     font-size 13px
-    
+
   .inline-edit-container .q-field__inner
     width 0!important
     height 30px

@@ -15,11 +15,16 @@
 </template>
 
 <script>
-
+import { QTd, QPopupEdit } from 'quasar'
 import mixin from './mixin'
 
 export default {
   name: "QModelTd",
+
+  components: {
+    QTd,
+    QPopupEdit
+  },
 
   mixins: [mixin],
 
@@ -49,6 +54,6 @@ export default {
 </script>
 
 <style lang="stylus">
-  .inline-edit-container 
+  .inline-edit-container
     height 30px
 </style>

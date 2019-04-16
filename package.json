@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/lucasfernog/app-extension-qmodeltd.git"
   },
-  "homepage": "https://github.com/lucasfernog/quasarframework/app-extension-qmodeltd",
+  "homepage": "https://github.com/lucasfernog/app-extension-qmodeltd",
   "license": "MIT",
   "keywords": [
     "quasar",
@@ -34,7 +34,6 @@
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
