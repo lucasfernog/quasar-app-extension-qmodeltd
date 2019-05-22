@@ -7,11 +7,11 @@
 
 const extendWithModelTd = function (conf) {
   // make sure qmodeltd boot file is registered
-  boot.push('~quasar-app-extension-qmodeltd/boot/qmodeltd.js')
+  conf.boot.push('~quasar-app-extension-qmodeltd/src/boot/qmodeltd.js')
 
   // make sure boot file transpiles
   conf.build.transpileDependencies.push(/quasar-app-extension-qmodeltd[\\/]src/)
-  console.log(` App Extension (qmodeltdr) Info: 'Adding qmodeltd boot reference to your quasar.conf.js'`)
+  console.log(` App Extension (qmodeltd) Info: 'Adding qmodeltd boot reference to your quasar.conf.js'`)
 }
 
 module.exports = function (api) {

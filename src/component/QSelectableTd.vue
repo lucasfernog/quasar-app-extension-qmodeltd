@@ -34,9 +34,7 @@ export default {
 
   methods: {
     onEditStart () {
-      if (this.mode === 'inline') {
-        this.$nextTick(this.$refs.select.focus)
-      }
+      setTimeout(() => this.$nextTick(this.$refs.select.showPopup))
     }
   },
 
