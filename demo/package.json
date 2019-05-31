@@ -1,0 +1,31 @@
+{
+  "name": "app-extension-qmodeltd-test",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app extension",
+  "productName": "QModelTd App Extension",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Lucas Fernandes Nogueira <lucasfernandesnog@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.1.2",
+    "prismjs": "^1.16.0",
+    "quasar": "^1.0.0-beta.23"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0-rc.4",
+    "quasar-app-extension-ide-helper": "^0.0.5",
+    "quasar-app-extension-qmodeltd": "link:../",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}

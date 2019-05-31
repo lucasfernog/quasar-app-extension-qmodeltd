@@ -25,7 +25,7 @@ quasar ext add qmodeltd
 Can be found [here](https://qmodeltd.netlify.com/#/).
 
 # Test Project
-Can be found [here](https://github.com/lucasfernog/quasar-app-extension-qmodeltd-test).
+Can be found [here](https://github.com/lucasfernog/quasar-app-extension-qmodeltd/tree/master/demo).
 
 # Example Code
 ```html

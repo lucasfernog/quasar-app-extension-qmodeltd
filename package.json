@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-qmodeltd",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.6",
   "description": "QModelTd is an UI app extension for Quasar that simplifies the usage of editable or selectable QTd",
   "author": "lucasfernog <lucasfernandesnog@gmail.com>",
   "scripts": {

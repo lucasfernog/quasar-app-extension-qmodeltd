@@ -43,6 +43,8 @@ export default {
 </script>
 
 <style lang="stylus">
-  .inline-edit-container .q-field__native
-    font-size 13px
+  .inline-edit-container .q-field
+    font-size 13px !important
+    & span
+      letter-spacing 0 !important
 </style>
