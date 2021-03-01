@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.1.2",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.23.0",
     "quasar": "^1.0.0-beta.23"
   },
   "devDependencies": {
