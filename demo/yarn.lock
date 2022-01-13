@@ -1146,7 +1146,7 @@ ajv-keywords@^3.1.0:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.4.0.tgz#4b831e7b531415a7cc518cd404e73f6193c6349d"
   integrity sha512-aUjdRFISbuFOl0EIZc+9e4FfZp0bDZgAdOOf30bJmw8VM9v84SHyVyxDfbWxpGYbdZD/9XoKxfHVNmxPkhwyGw==
 
-ajv@6.8.1, ajv@^6.1.0:
+ajv@^6.1.0:
   version "6.8.1"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.8.1.tgz#0890b93742985ebf8973cd365c5b23920ce3cb20"
   integrity sha512-eqxCp82P+JfqL683wwsL73XmFs1eG6qjw+RD3YHx+Jll1r0jNd4dh8QG9NYAeNGA/hnZjeEDgtTskgJULbxpWQ==
@@ -3094,11 +3094,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
-  integrity sha512-m/pZQy4Gj287eNy94nivy5wchN3Kp+Q5WgUPNy5lJSZ3sgkVKSYV/ZChMAQVIgx1SqfZ2zBZtPA2YlXIWxxJOQ==
-  dependencies:
-    debug "^3.2.6"
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -5695,8 +5693,7 @@ quasar-app-extension-ide-helper@^0.0.5:
     xml-escape "^1.1.0"
 
 "quasar-app-extension-qmodeltd@link:..":
-  version "0.0.0"
-  uid ""
+  version "1.0.0-alpha.6"
 
 quasar@^1.0.0-beta.23:
   version "1.0.0-rc.4"
